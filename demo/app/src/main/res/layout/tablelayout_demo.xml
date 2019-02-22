@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_column="2">
+    android:layout_height="match_parent">
     <!--collapseColumns="3"隐藏按钮4-->
     <!--android:shrinkColumns="1"拉申按钮2-->
     <!--android:shrinkColumns="1"压缩按钮2-->
 
     <TableRow>
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="one" />
+            android:text="one"
+            />
 
         <Button
             android:layout_width="wrap_content"
@@ -33,5 +32,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="five" />
+    </TableRow>
+    <!--<TableRow>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="哈哈"-->
+        <!--android:layout_column="1"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="嘻嘻"-->
+        <!--android:layout_column="3"-->
+        <!--/>-->
+    <!--</TableRow>-->
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/layout_span"
+            android:layout_span="3"
+            />
     </TableRow>
 </TableLayout>

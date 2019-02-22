@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:layout_x="190dp"
+        android:layout_y="259dp"
+        android:text="自动登陆"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="133dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="196dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="149dp"
+        android:text="用户名"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="213dp"
+        android:text="密   码"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:layout_x="46dp"
+        android:layout_y="259dp"
+        android:text="记住密码"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="213dp"
+        android:layout_y="308dp"
+        android:text="注册"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="310dp"
+        android:text="登录"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="4dp" />
+</AbsoluteLayout>
