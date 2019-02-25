@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="layout_span">合并单元格</string>
+    <string name="login_name">用户名</string>
+    <string name="login_pwd">密码</string>
+    <string name="save_pwd">保存密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+
 </resources>
