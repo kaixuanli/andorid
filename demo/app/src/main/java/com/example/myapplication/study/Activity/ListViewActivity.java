@@ -1,4 +1,4 @@
-package com.example.myapplication.study;
+package com.example.myapplication.study.Activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,7 +14,6 @@ public class ListViewActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listview_demo);
-
 
     }
 
