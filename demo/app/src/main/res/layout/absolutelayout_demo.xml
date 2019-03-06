@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--该布局很少使用，东西位置定死，对于各大小屏幕不能自适应-->
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="101dp"
