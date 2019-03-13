@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.example.myapplication.R;
 import com.example.myapplication.study.View.CirclePgBar;
 
+//进度条
 public class ProgressBar extends AppCompatActivity {
 
     private SeekBar sb_normal;

@@ -12,7 +12,7 @@ import com.example.myapplication.study.entity.Animal;
 import java.util.LinkedList;
 import java.util.List;
 
-public class CustomActivity extends AppCompatActivity {
+public class AnimalActivity extends AppCompatActivity {
 
     private List<Animal> mData = null;
     private Context mContext;
@@ -23,7 +23,7 @@ public class CustomActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listview_demo);
-        mContext = CustomActivity.this;
+        mContext = AnimalActivity.this;
         list_animal = (ListView) findViewById(R.id.list_test);
         mData = new LinkedList<Animal>();
         mData.add(new Animal("狗说", "你是狗么?", R.mipmap.dog));

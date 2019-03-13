@@ -2,9 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:background="#000000">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,4 +29,43 @@
         android:textColor="#00FFFF"
         android:textSize="30sp"
         android:background="@drawable/rectangle"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择您的排位分段"
+        android:textColor="#44BDED"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spin_one"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:entries="@array/king"
+        android:spinnerMode="dialog" />
+
+    <!--全词匹配！！completionThreshold填入一个字就提示-->
+    <AutoCompleteTextView
+        android:id="@+id/atv_content"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:completionHint="请输入搜索内容"
+        android:completionThreshold="1"
+        android:dropDownHorizontalOffset="5dp" />
+
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/matv_content"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:completionThreshold="1"
+        android:dropDownHorizontalOffset="5dp"
+        android:text="" />
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ExpandableListView>
+
 </LinearLayout>

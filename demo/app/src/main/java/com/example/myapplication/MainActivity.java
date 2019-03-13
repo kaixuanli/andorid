@@ -11,8 +11,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_demo);
+        setContentView(R.layout.activity_main);
+    }
 
+    public void  radioButton(){
         RadioGroup radgroup = findViewById(R.id.radioGroup);
         //第一种获得单选按钮值的方法
         //为radioGroup设置一个监听器:setOnCheckedChanged()

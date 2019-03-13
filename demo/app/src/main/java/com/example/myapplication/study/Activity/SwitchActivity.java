@@ -10,6 +10,7 @@ import android.widget.ToggleButton;
 
 import com.example.myapplication.R;
 
+//开关控件
 public class SwitchActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener {
     private ToggleButton tbtn_open;
     private Switch swh_status;

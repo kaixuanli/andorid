@@ -5,4 +5,14 @@
         <item>数学</item>
         <item>英语</item>
     </string-array>
+
+    <string-array name="king">
+        <item>青铜</item>
+        <item>白银</item>
+        <item>黄金</item>
+        <item>铂金</item>
+        <item>钻石</item>
+        <item>星耀</item>
+        <item>王者</item>
+    </string-array>
 </resources>
