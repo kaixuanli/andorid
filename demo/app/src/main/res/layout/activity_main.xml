@@ -63,9 +63,16 @@
         android:dropDownHorizontalOffset="5dp"
         android:text="" />
 
-    <ExpandableListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </ExpandableListView>
+    <!--<ExpandableListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</ExpandableListView>-->
+
+    <Button
+        android:id="@+id/linsten_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="监听事件处理"
+        android:onClick="myclick"/>
 
 </LinearLayout>
