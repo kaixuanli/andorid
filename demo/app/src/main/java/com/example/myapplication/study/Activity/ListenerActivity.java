@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.study.Activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,17 +9,23 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.example.myapplication.R;
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class ListenerActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnshow;
+    private Button btnshow1;
+    private Button btnshow2;
+    private Button btnshow3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnshow = (Button) findViewById(R.id.linsten_button);
+        btnshow1 = (Button) findViewById(R.id.linsten_button1);
+        btnshow2 = (Button) findViewById(R.id.linsten_button2);
+        btnshow3 = (Button) findViewById(R.id.linsten_button3);
         method_1(btnshow);
-        btnshow.setOnClickListener(new BtnClickListener());
-
+        btnshow1.setOnClickListener(new BtnClickListener());
+        onClick(btnshow2);
     }
 
     //监听方式一：直接写匿名内部类
@@ -43,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    //监听方式三：用得较少要通过构造方法将组件传入使用;这样导致的结果就是代码不够简洁！
+    //监听方式三：用得较少，新建一个外部类通过构造方法将组件传入使用;这样导致的结果就是代码不够简洁！
     //监听方式四：直接使用Activity作为事件监听器，实现OnClickListener接口
     @Override
     public void onClick(View v) {
